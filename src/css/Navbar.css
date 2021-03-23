@@ -1,0 +1,79 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  padding: 0 2rem;
+  border: 1px solid #d6d6d6;
+  background-color: #f7e9f1;
+}
+
+.logo__icon {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #27db9f;
+  margin-right: 0.5rem;
+}
+
+.navbar__logo__container {
+  display: flex;
+  align-items: center;
+  flex: 0.3;
+  cursor: default;
+}
+
+.navbar__menu__bar {
+  display: flex;
+  justify-content: space-around;
+  flex: 0.4;
+  align-items: center;
+  font-weight: 600;
+  cursor: default;
+}
+
+.navbar__profile__container {
+  flex: 0.3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar__menu__bar__itemtwo {
+  color: #e85441;
+  text-align: center;
+}
+
+.navbar_hr {
+  width: 80px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e85441;
+  border-bottom-width: 2px;
+  border-radius: 3px;
+}
+
+.navbar__profile__container > div {
+  margin-right: 20px;
+}
+
+.navbar__profile__container:last-child {
+  margin-right: 0px;
+}
+
+.navbar__profile__container__avatar img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 0.3em;
+}
+
+.navbar__profile__container__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__profile__container div i {
+  font-weight: 00;
+  font-size: 20px;
+  color: #e85441;
+}

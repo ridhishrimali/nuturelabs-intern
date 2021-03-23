@@ -1,0 +1,274 @@
+.filters__container {
+  background-color: #fff;
+  border-radius: 3px;
+  margin-top: 1.3em;
+}
+
+.filters_expertise {
+  padding: 15px;
+}
+
+.filters_expertise p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 0.4rem;
+}
+
+.filters__input {
+  padding: 0.5em;
+  width: 100%;
+  border-right: none;
+  border: 1px solid #ebf7f3;
+  border-radius: 3px;
+  background-color: #ebf7f3;
+}
+
+.filters__input:focus,
+.filters__input:active {
+  outline: none;
+}
+
+.filters_expertise__input__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0.7rem;
+}
+
+.filters_expertise__input__container i {
+  font-size: 20px;
+  position: absolute;
+  right: 7px;
+  color: #43e0af;
+}
+
+.filters_expertise__input__container__tags span {
+  background-color: #416bf3;
+  border-radius: 18px;
+  padding: 0.2rem 0.6rem;
+  color: #fff;
+  font-size: 11px;
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+.filters_expertise__input__container__tags span:last-child {
+  background-color: #f83513;
+}
+
+.filters_expertise__input__container__tags span i {
+  font-size: 11px;
+  font-weight: 100;
+  margin-left: 7px;
+}
+
+.filters_focus {
+  padding: 15px;
+  margin-top: 0.7rem;
+}
+
+.filters_focus p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 0.4rem;
+}
+
+.filters__input {
+  padding: 0.5em;
+  width: 100%;
+  border-right: none;
+  border: 1px solid #ebf7f3;
+  border-radius: 3px;
+  background-color: #ebf7f3;
+}
+
+.filters__input:focus,
+.filters__input:active {
+  outline: none;
+}
+
+.filters_focus__input__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0.7rem;
+}
+
+.filters_focus__input__container i {
+  font-size: 20px;
+  position: absolute;
+  right: 7px;
+  color: #43e0af;
+}
+
+.filters_focus__input__container__tags span {
+  background-color: #416bf3;
+  border-radius: 18px;
+  padding: 0.2rem 0.6rem;
+  color: #fff;
+  font-size: 11px;
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+.filters_focus__input__container__tags span:last-child {
+  background-color: #f83513;
+}
+
+.filters_focus__input__container__tags span i {
+  font-size: 11px;
+  font-weight: 100;
+  margin-left: 7px;
+}
+
+.filters__ratings {
+  padding: 15px;
+  margin-top: 2rem;
+}
+
+.filters__ratings p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 0.4rem;
+}
+
+.rating__itemone {
+  display: flex;
+  margin-bottom: 0.5em;
+  margin-top: 0.7rem;
+}
+
+.rating__itemone div {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.rating__itemone div input {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.rating__itemtwo {
+  display: flex;
+}
+
+.rating__itemtwo div {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  flex: 0.3;
+}
+
+.rating__itemtwo div input {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.rating__itemone div i {
+  color: #eb604e;
+  font-size: 10px;
+  margin-right: 3px;
+}
+
+.rating__itemtwo div i {
+  color: #eb604e;
+  font-size: 10px;
+  margin-right: 3px;
+}
+
+.filters__price {
+  padding: 15px;
+  margin-top: 0.8rem;
+}
+
+.filters__price p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 0.9rem;
+}
+
+.filters__price div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filters__price div input {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.filters__price div span {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.filters__session {
+  padding: 15px;
+  margin-top: 0.8rem;
+}
+
+.filters__session p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 0.9rem;
+}
+
+.filters__session div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filters__session div input {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.filters__session div span {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.filters__langauge {
+  padding: 10px;
+  margin-top: 0.8rem;
+  margin-bottom: 5rem;
+}
+
+.filters__langauge p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 0.9rem;
+}
+
+.filters__langauge div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filters__langauge div input {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.filters__langauge div span {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
